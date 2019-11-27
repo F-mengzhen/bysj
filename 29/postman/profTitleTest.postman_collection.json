@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "2750502e-a93a-47fe-b051-8aec34875b6d",
+		"name": "ProfTitleTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Delete localhost:8080/profTitle.ctl",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/profTitle.ctl",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profTitle.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post localhost:8080/profTitle.ctl",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/profTitle.ctl",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profTitle.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put localhost:8080/profTitle.ctl",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/profTitle.ctl",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profTitle.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get localhost:8080/profTitle.ctl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/profTitle.ctl",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"profTitle.ctl"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
